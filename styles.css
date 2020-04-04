@@ -3,13 +3,32 @@
     padding: 0;
 
 }
-.body{
+body{
     display: flex;
     flex-direction: column;
 }
 
+
 .header-container {
-    margin: 0;
-    padding: 0;
-    background-color: yellow;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 17, 17);
+    border: 4px solid black;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(17, 211, 255);
+    border: 4px solid black;    
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(25, 255, 17);
+    border: 4px solid black;
 }
